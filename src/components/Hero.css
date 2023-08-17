@@ -1,0 +1,138 @@
+:root {
+    --header-height: 3.5rem;
+
+    /* =========colors========= */
+    --first-color: hsl(79, 72%, 55%);
+    --first-color-light: hsl(79, 97%, 77%);
+    --first-color-alt: hsl(79, 67%, 52%);
+    --first-color-dark: hsl(79, 63%, 50%);
+    --first-color-grey: hsl(79, 6%, 64%);
+    --title-color: hsl(180, 4%, 98%);
+    --title-color-black: hsl(180, 4%, 12%);
+    --text-color: hsl(180, 4%, 72%);
+    --text-color-light: hsl(180, 4%, 65%);
+    --body-color: hsl(180, 12%, 8%);
+
+    /* ========font and typography ======= */
+    --body-font: 'Red Hat Display', sans-serif;
+    --second-font: 'Kaushan Script', cursive;
+    --biggest-font-size: 2rem;
+    --bigger-font-size: 1.5rem;
+    --big-font-size: 1.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+
+    /* ======= font weight ======== */
+
+    --font-bold: 700;
+    --font-black: 900;
+
+    /* ======== z-index ====== */
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+.hero{
+    width: 100%;
+
+    margin-top: 50px;
+}
+
+
+.hero-content h2, p{
+    width: 420px;
+
+}
+.hero-btn .register-btn{
+    background-color: var(--first-color-dark);
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.register-btn:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.5;
+    border-color: #fff;
+}
+.btns{
+    background-color: var(--first-color-grey);
+    width: 150px;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+}
+.btns:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5;
+    border-color: var(--first-color-grey);
+}
+.hero-btn{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    
+}
+.hero .hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 50px;
+
+
+}
+.hero-content span{
+    color: var(--first-color-dark);
+}
+.dusan{
+    width: 500px;
+    height: 400px;
+}
+.hero-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.image-img .images{
+    display: flex;
+    
+}
+.jovic{
+    width: 500px;
+    height: 400px;
+
+}
+.image{
+    margin: 20px;
+}
+@media screen and (max-width: 896px){
+    .hero{
+        width: 100%;
+    }    
+    .hero .hero-wrapper{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .image{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .jovic, .dusan{
+        width: 300px;
+        height: 400px;
+    
+    }
+    
+
+}

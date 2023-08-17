@@ -1,0 +1,25 @@
+.images{
+    width: 100%;
+    height: 70%;
+}
+.testimony h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--first-color-dark);
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+.testimony h4{
+    color: var(--first-color-dark);
+    margin-top: 30px;
+}
+.testimony{
+    width: 100%;
+}
+@media screen and (max-width:896px) {
+    .testimony{
+        width: 100%;
+    }
+}
