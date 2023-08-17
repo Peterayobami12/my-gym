@@ -124,6 +124,7 @@
 @media screen and (max-width:896px){
     .benefit{
         width: 100%;
+        height: 100%;
     }
     .benefit .excercise{
         background: var(--first-color-dark);
