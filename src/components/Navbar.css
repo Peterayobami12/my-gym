@@ -321,3 +321,24 @@ li{
     
     
 }
+@media screen and (max-width:1024px) {
+    .heads{
+        width: 100%;
+    }
+
+    .heads .header{
+        width: 100%;
+        position: sticky;
+    display: grid;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    
+    background: var(--title-color);
+    
+    }
+    .header-bg{
+        width: 100%;
+        height: 100%;
+    }
+}
